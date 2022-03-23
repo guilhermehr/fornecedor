@@ -1,19 +1,6 @@
 server:
   port: 8081
 
-spring:
-  application:
-    name: 'fornecedor'
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    password: 123456
-    username: root
-    url: jdbc:mysql://localhost:3307/fornecedor?useTimezone=true&serverTimezone=UTC
-  jpa:
-    hibernate:
-      ddl-auto: update
-    show-sql: true
-
 eureka:
   client:
     fetch-registry: true
